@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,41 @@
 		C38E239825B56D6A00A2506B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38E239625B56D6A00A2506B /* LaunchScreen.storyboard */; };
 		C38E23A325B56D6A00A2506B /* Sobko_GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23A225B56D6A00A2506B /* Sobko_GymTests.swift */; };
 		C38E23AE25B56D6A00A2506B /* Sobko_GymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23AD25B56D6A00A2506B /* Sobko_GymUITests.swift */; };
+		C38E23BF25B56E0300A2506B /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C38E23BE25B56E0300A2506B /* ND Astroneer.ttf */; };
+		C38E23C025B56E0300A2506B /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C38E23BE25B56E0300A2506B /* ND Astroneer.ttf */; };
+		C38E23C125B56E0300A2506B /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C38E23BE25B56E0300A2506B /* ND Astroneer.ttf */; };
+		C38E23C925B570E500A2506B /* Hello-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23C825B570E500A2506B /* Hello-1.swift */; };
+		C38E23CA25B570E500A2506B /* Hello-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23C825B570E500A2506B /* Hello-1.swift */; };
+		C38E23CB25B570E500A2506B /* Hello-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23C825B570E500A2506B /* Hello-1.swift */; };
+		C38E23D025B5738600A2506B /* Hellow-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23CF25B5738600A2506B /* Hellow-2.swift */; };
+		C38E23D125B5738600A2506B /* Hellow-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23CF25B5738600A2506B /* Hellow-2.swift */; };
+		C38E23D225B5738600A2506B /* Hellow-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23CF25B5738600A2506B /* Hellow-2.swift */; };
+		C38E23D725B576DF00A2506B /* Hello-2-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23D625B576DF00A2506B /* Hello-2-2.swift */; };
+		C38E23D825B576DF00A2506B /* Hello-2-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23D625B576DF00A2506B /* Hello-2-2.swift */; };
+		C38E23D925B576DF00A2506B /* Hello-2-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23D625B576DF00A2506B /* Hello-2-2.swift */; };
+		C38E23DE25B57E5D00A2506B /* Hello-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23DD25B57E5D00A2506B /* Hello-4.swift */; };
+		C38E23DF25B57E5D00A2506B /* Hello-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23DD25B57E5D00A2506B /* Hello-4.swift */; };
+		C38E23E025B57E5D00A2506B /* Hello-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23DD25B57E5D00A2506B /* Hello-4.swift */; };
+		C38E23E525B57FD300A2506B /* Hello-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23E425B57FD300A2506B /* Hello-5.swift */; };
+		C38E23E625B57FD300A2506B /* Hello-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23E425B57FD300A2506B /* Hello-5.swift */; };
+		C38E23E725B57FD300A2506B /* Hello-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23E425B57FD300A2506B /* Hello-5.swift */; };
+		C38E23EC25B5814E00A2506B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23EB25B5814E00A2506B /* SignIn.swift */; };
+		C38E23ED25B5814E00A2506B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23EB25B5814E00A2506B /* SignIn.swift */; };
+		C38E23EE25B5814E00A2506B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23EB25B5814E00A2506B /* SignIn.swift */; };
+		C38E23FE25B5860200A2506B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23FD25B5860200A2506B /* Model.swift */; };
+		C38E23FF25B5860200A2506B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23FD25B5860200A2506B /* Model.swift */; };
+		C38E240025B5860200A2506B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E23FD25B5860200A2506B /* Model.swift */; };
+		C38E240525B586C900A2506B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E240425B586C900A2506B /* ViewModel.swift */; };
+		C38E240625B586C900A2506B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E240425B586C900A2506B /* ViewModel.swift */; };
+		C38E240725B586C900A2506B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E240425B586C900A2506B /* ViewModel.swift */; };
+		C38E241025B586F800A2506B /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C38E240F25B586F800A2506B /* SwiftyJSON */; };
+		C38E241625B5878D00A2506B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C38E241525B5878D00A2506B /* Alamofire */; };
+		C38E241B25B5893400A2506B /* Hello-2-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E241A25B5893400A2506B /* Hello-2-3.swift */; };
+		C38E241C25B5893400A2506B /* Hello-2-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E241A25B5893400A2506B /* Hello-2-3.swift */; };
+		C38E241D25B5893400A2506B /* Hello-2-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E241A25B5893400A2506B /* Hello-2-3.swift */; };
+		C38E242525B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
+		C38E242625B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
+		C38E242725B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +84,17 @@
 		C38E23A925B56D6A00A2506B /* Sobko GymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sobko GymUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38E23AD25B56D6A00A2506B /* Sobko_GymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sobko_GymUITests.swift; sourceTree = "<group>"; };
 		C38E23AF25B56D6A00A2506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38E23BE25B56E0300A2506B /* ND Astroneer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ND Astroneer.ttf"; sourceTree = "<group>"; };
+		C38E23C825B570E500A2506B /* Hello-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-1.swift"; sourceTree = "<group>"; };
+		C38E23CF25B5738600A2506B /* Hellow-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hellow-2.swift"; sourceTree = "<group>"; };
+		C38E23D625B576DF00A2506B /* Hello-2-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-2-2.swift"; sourceTree = "<group>"; };
+		C38E23DD25B57E5D00A2506B /* Hello-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-4.swift"; sourceTree = "<group>"; };
+		C38E23E425B57FD300A2506B /* Hello-5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-5.swift"; sourceTree = "<group>"; };
+		C38E23EB25B5814E00A2506B /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		C38E23FD25B5860200A2506B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C38E240425B586C900A2506B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C38E241A25B5893400A2506B /* Hello-2-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-2-3.swift"; sourceTree = "<group>"; };
+		C38E242425B58A7900A2506B /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38E241025B586F800A2506B /* SwiftyJSON in Frameworks */,
+				C38E241625B5878D00A2506B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +149,18 @@
 			children = (
 				C38E238B25B56D6800A2506B /* AppDelegate.swift */,
 				C38E238D25B56D6800A2506B /* SceneDelegate.swift */,
+				C38E23BE25B56E0300A2506B /* ND Astroneer.ttf */,
 				C38E238F25B56D6800A2506B /* ContentView.swift */,
+				C38E242425B58A7900A2506B /* Swift2.swift */,
+				C38E23FD25B5860200A2506B /* Model.swift */,
+				C38E240425B586C900A2506B /* ViewModel.swift */,
+				C38E23C825B570E500A2506B /* Hello-1.swift */,
+				C38E23CF25B5738600A2506B /* Hellow-2.swift */,
+				C38E23D625B576DF00A2506B /* Hello-2-2.swift */,
+				C38E241A25B5893400A2506B /* Hello-2-3.swift */,
+				C38E23DD25B57E5D00A2506B /* Hello-4.swift */,
+				C38E23E425B57FD300A2506B /* Hello-5.swift */,
+				C38E23EB25B5814E00A2506B /* SignIn.swift */,
 				C38E239125B56D6A00A2506B /* Assets.xcassets */,
 				C38E239625B56D6A00A2506B /* LaunchScreen.storyboard */,
 				C38E239925B56D6A00A2506B /* Info.plist */,
@@ -152,6 +211,10 @@
 			dependencies = (
 			);
 			name = "Sobko Gym";
+			packageProductDependencies = (
+				C38E240F25B586F800A2506B /* SwiftyJSON */,
+				C38E241525B5878D00A2506B /* Alamofire */,
+			);
 			productName = "Sobko Gym";
 			productReference = C38E238825B56D6800A2506B /* Sobko Gym.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +286,10 @@
 				Base,
 			);
 			mainGroup = C38E237F25B56D6800A2506B;
+			packageReferences = (
+				C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				C38E241425B5878D00A2506B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C38E238925B56D6800A2506B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38E239825B56D6A00A2506B /* LaunchScreen.storyboard in Resources */,
+				C38E23BF25B56E0300A2506B /* ND Astroneer.ttf in Resources */,
 				C38E239525B56D6A00A2506B /* Preview Assets.xcassets in Resources */,
 				C38E239225B56D6A00A2506B /* Assets.xcassets in Resources */,
 			);
@@ -249,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38E23C025B56E0300A2506B /* ND Astroneer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38E23C125B56E0300A2506B /* ND Astroneer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +337,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38E238C25B56D6800A2506B /* AppDelegate.swift in Sources */,
+				C38E241B25B5893400A2506B /* Hello-2-3.swift in Sources */,
+				C38E23EC25B5814E00A2506B /* SignIn.swift in Sources */,
 				C38E238E25B56D6800A2506B /* SceneDelegate.swift in Sources */,
+				C38E240525B586C900A2506B /* ViewModel.swift in Sources */,
+				C38E23D025B5738600A2506B /* Hellow-2.swift in Sources */,
+				C38E242525B58A7900A2506B /* Swift2.swift in Sources */,
+				C38E23DE25B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C38E23FE25B5860200A2506B /* Model.swift in Sources */,
+				C38E23C925B570E500A2506B /* Hello-1.swift in Sources */,
+				C38E23D725B576DF00A2506B /* Hello-2-2.swift in Sources */,
+				C38E23E525B57FD300A2506B /* Hello-5.swift in Sources */,
 				C38E239025B56D6800A2506B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38E23D825B576DF00A2506B /* Hello-2-2.swift in Sources */,
+				C38E241C25B5893400A2506B /* Hello-2-3.swift in Sources */,
+				C38E242625B58A7900A2506B /* Swift2.swift in Sources */,
+				C38E240625B586C900A2506B /* ViewModel.swift in Sources */,
+				C38E23DF25B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C38E23E625B57FD300A2506B /* Hello-5.swift in Sources */,
+				C38E23CA25B570E500A2506B /* Hello-1.swift in Sources */,
+				C38E23ED25B5814E00A2506B /* SignIn.swift in Sources */,
+				C38E23D125B5738600A2506B /* Hellow-2.swift in Sources */,
 				C38E23A325B56D6A00A2506B /* Sobko_GymTests.swift in Sources */,
+				C38E23FF25B5860200A2506B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +374,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38E23D925B576DF00A2506B /* Hello-2-2.swift in Sources */,
+				C38E241D25B5893400A2506B /* Hello-2-3.swift in Sources */,
+				C38E242725B58A7900A2506B /* Swift2.swift in Sources */,
+				C38E240725B586C900A2506B /* ViewModel.swift in Sources */,
+				C38E23E025B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C38E23E725B57FD300A2506B /* Hello-5.swift in Sources */,
+				C38E23CB25B570E500A2506B /* Hello-1.swift in Sources */,
+				C38E23EE25B5814E00A2506B /* SignIn.swift in Sources */,
+				C38E23D225B5738600A2506B /* Hellow-2.swift in Sources */,
 				C38E23AE25B56D6A00A2506B /* Sobko_GymUITests.swift in Sources */,
+				C38E240025B5860200A2506B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +691,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C38E241425B5878D00A2506B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C38E240F25B586F800A2506B /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		C38E241525B5878D00A2506B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C38E241425B5878D00A2506B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C38E238025B56D6800A2506B /* Project object */;
 }
