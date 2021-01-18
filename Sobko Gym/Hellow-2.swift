@@ -36,6 +36,10 @@ struct Hellow_2: View {
                             .frame(width: 92, height: 92, alignment: .center)
                             .frame(width: 92, height: 92, alignment: .center)
 //                            .cornerRadius(25).border(Color.black, width: 1)
+                            .overlay(
+                            Circle()
+                                .strokeBorder(Color.black, lineWidth: 1)
+                            )
                             .background(Circle())
                             .foregroundColor(Color(btnColor ? ("wi") : ("be")))
                             Text("Female")
@@ -61,6 +65,10 @@ struct Hellow_2: View {
                         }
                         
                         .frame(width: 92, height: 92, alignment: .center)
+                        .overlay(
+                        Circle()
+                            .strokeBorder(Color.black, lineWidth: 1)
+                        )
 //                        .cornerRadius(25).border(Color.black, width: 1)
                         .background(Circle())
                         .foregroundColor(Color(btnColor1 ? ("wi") : ("be")))
