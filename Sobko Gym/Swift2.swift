@@ -7,11 +7,11 @@ struct Swift2: View {
     @State var Swift22:Int = 1
     @State var viewModel = ViewModel()
     var body: some View {
-        if viewModel.gym != []{
-            Swift = 7
-        } else {
-            Swift = 1
-        }
+//        if viewModel.gym != []{
+//            Swift22 = 7
+//        } else {
+//            Swift22 = 1
+//        }
        
             if Swift22 == 1{
                 Hello_1(Swift22:$Swift22)
