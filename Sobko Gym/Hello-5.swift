@@ -10,8 +10,8 @@ import SwiftUI
 struct Hello_5: View {
     @Binding var Swift22:Int
     @State var btnColor:Bool = true
-    @State var heignt:String = ""
-    @State var weight:String = ""
+    @Binding var heignt:String
+    @Binding var weight:String
     @State var viewModel = ViewModel()
     var body: some View {
         ZStack{
@@ -58,7 +58,7 @@ struct Hello_5: View {
                                 .frame(width: 284, height: 77, alignment: .center)
                             Button(action: {
                                 btnColor.toggle()
-                                viewModel.SignIn(nam: "", email: "", pass: "", wig: weight, hi: heignt)
+                                viewModel.SignUp(nam: "", email: "", pass: "", wig: weight, hi: heignt)
                                 Swift22 = 7
                             }, label: {
                                 Text("Next")

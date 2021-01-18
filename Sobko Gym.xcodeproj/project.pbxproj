@@ -50,6 +50,12 @@
 		C38E242525B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
 		C38E242625B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
 		C38E242725B58A7900A2506B /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242425B58A7900A2506B /* Swift2.swift */; };
+		C38E242F25B5A8A400A2506B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242E25B5A8A300A2506B /* SignUp.swift */; };
+		C38E243025B5A8A400A2506B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242E25B5A8A300A2506B /* SignUp.swift */; };
+		C38E243125B5A8A400A2506B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E242E25B5A8A300A2506B /* SignUp.swift */; };
+		C38E243625B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
+		C38E243725B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
+		C38E243825B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +101,8 @@
 		C38E240425B586C900A2506B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C38E241A25B5893400A2506B /* Hello-2-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello-2-3.swift"; sourceTree = "<group>"; };
 		C38E242425B58A7900A2506B /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
+		C38E242E25B5A8A300A2506B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		C38E243525B5A8AC00A2506B /* Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +169,8 @@
 				C38E23DD25B57E5D00A2506B /* Hello-4.swift */,
 				C38E23E425B57FD300A2506B /* Hello-5.swift */,
 				C38E23EB25B5814E00A2506B /* SignIn.swift */,
+				C38E242E25B5A8A300A2506B /* SignUp.swift */,
+				C38E243525B5A8AC00A2506B /* Back.swift */,
 				C38E239125B56D6A00A2506B /* Assets.xcassets */,
 				C38E239625B56D6A00A2506B /* LaunchScreen.storyboard */,
 				C38E239925B56D6A00A2506B /* Info.plist */,
@@ -343,11 +353,13 @@
 				C38E240525B586C900A2506B /* ViewModel.swift in Sources */,
 				C38E23D025B5738600A2506B /* Hellow-2.swift in Sources */,
 				C38E242525B58A7900A2506B /* Swift2.swift in Sources */,
+				C38E242F25B5A8A400A2506B /* SignUp.swift in Sources */,
 				C38E23DE25B57E5D00A2506B /* Hello-4.swift in Sources */,
 				C38E23FE25B5860200A2506B /* Model.swift in Sources */,
 				C38E23C925B570E500A2506B /* Hello-1.swift in Sources */,
 				C38E23D725B576DF00A2506B /* Hello-2-2.swift in Sources */,
 				C38E23E525B57FD300A2506B /* Hello-5.swift in Sources */,
+				C38E243625B5A8AC00A2506B /* Back.swift in Sources */,
 				C38E239025B56D6800A2506B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +369,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38E23D825B576DF00A2506B /* Hello-2-2.swift in Sources */,
+				C38E243025B5A8A400A2506B /* SignUp.swift in Sources */,
 				C38E241C25B5893400A2506B /* Hello-2-3.swift in Sources */,
+				C38E243725B5A8AC00A2506B /* Back.swift in Sources */,
 				C38E242625B58A7900A2506B /* Swift2.swift in Sources */,
 				C38E240625B586C900A2506B /* ViewModel.swift in Sources */,
 				C38E23DF25B57E5D00A2506B /* Hello-4.swift in Sources */,
@@ -375,7 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38E23D925B576DF00A2506B /* Hello-2-2.swift in Sources */,
+				C38E243125B5A8A400A2506B /* SignUp.swift in Sources */,
 				C38E241D25B5893400A2506B /* Hello-2-3.swift in Sources */,
+				C38E243825B5A8AC00A2506B /* Back.swift in Sources */,
 				C38E242725B58A7900A2506B /* Swift2.swift in Sources */,
 				C38E240725B586C900A2506B /* ViewModel.swift in Sources */,
 				C38E23E025B57E5D00A2506B /* Hello-4.swift in Sources */,

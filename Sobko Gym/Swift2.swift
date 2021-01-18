@@ -6,6 +6,9 @@ import SwiftUI
 struct Swift2: View {
     @State var Swift22:Int = 1
     @State var viewModel = ViewModel()
+    @State var nam:String = ""
+    @State var heignt:String = ""
+    @State var weight:String = ""
     var body: some View {
 //        if viewModel.gym != []{
 //            Swift22 = 7
@@ -28,13 +31,16 @@ struct Swift2: View {
                 Hello_4(Swift22:$Swift22)
             }
             else if Swift22 == 6{
-                Hello_5(Swift22:$Swift22)
+                Hello_5(Swift22:$Swift22, heignt: $heignt, weight:$weight)
             }
             else if Swift22 == 7{
-                SignIn(Swift22: $Swift22)
+                SignIn(Swift22: $Swift22, nam: $nam)
             }
             else if Swift22 == 8{
-                
+                SignUp(Swift22: $Swift22, heignt: $heignt, weight: $weight)
+            }
+        else if Swift22 == 9{
+                Back(Swift22: $Swift22, nam: $nam)
             }
        
         

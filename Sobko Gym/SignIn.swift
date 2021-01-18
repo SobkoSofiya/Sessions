@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct SignIn: View {
+    @State var viewModel = ViewModel()
     @Binding var Swift22:Int
-    @State var nam:String = ""
+    @Binding var nam:String
     @State var pass:String = ""
+    @State var error = false
+    @State var mess:String = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -79,26 +82,60 @@ struct SignIn: View {
                 }
                 }
                 ZStack{
-                    Rectangle()
-                        .frame(width: 312, height: 50, alignment: .center)
-                        .foregroundColor(.white)
-                        .cornerRadius(25)
-                    Text("Sign In")
-                        .font(.custom("ND Astroneer.ttf", size: 24))
+                  
+                    Button(action: {
+                        viewModel.SignIn(nam: "\(nam)", pass: "\(pass)")
+                        if viewModel.perehod == 1{
+                           Swift22 = 9
+                        } else if viewModel.perehod == 2{
+                            mess = "User is active"
+                            error.toggle()
+                        } else if viewModel.perehod == 3{
+                            mess = "Error username or password"
+                            error.toggle()
+                        }
                         
-                        .foregroundColor(Color("bu"))
-                        
+                    }, label: {
+                        ZStack{
+                        Rectangle()
+                            .frame(width: 312, height: 50, alignment: .center)
+                            .foregroundColor(.white)
+                            .cornerRadius(25)
+                        Text("Sign In")
+                            .font(.custom("ND Astroneer.ttf", size: 24))
+//                            .frame(width: 312, height: 50, alignment: .center).cornerRadius(100)
+//                            .background(Color.white)
+                            .foregroundColor(Color("bu"))
+                        }
+                            
+                    }).padding(.top, 35).alert(isPresented: $error, content: {
+                        Alert(title: Text("Error"), message: Text("\(mess)"), dismissButton: .default(Text("Ok"), action: {
+                            if  mess == "User is active"{
+                                Swift22 = 9
+                            } else if mess == "Error username or password"{
+                                Swift22 = 7
+                            }
+                            
+                        }))
+                    })
                
-                }.padding(.top, 35)
+                }
+                Button(action: {
+                    Swift22 = 8
+                }, label: {
                     Text("Sign Up")
                         .underline()
                         .font(.custom("ND Astroneer.ttf", size: 24))
                         .frame(width: 312, height: 50, alignment: .center).cornerRadius(100)
                         .foregroundColor(.white)
+                })
+                   
                        
                         
               
-              
+                Button(action: {
+                    Swift22 = 9
+                }, label: {
                     Text("Skip")
                         .font(.custom("ND Astroneer.ttf", size: 16))
                         .foregroundColor(.white)
@@ -106,6 +143,8 @@ struct SignIn: View {
                         .padding(.top, 85)
                         .padding(.bottom, 10)
                 
+                })
+                    
                
                 
                 
