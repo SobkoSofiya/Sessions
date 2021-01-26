@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct SitUp2: View {
+    @Binding var contDay : Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            
+            UserDefaults.standard.set(contDay, forKey: "Keey")
+            let scene = UIApplication.shared.connectedScenes.first as! UIWindowScene
+                                    let windowSceneDelegate = scene.delegate as? SceneDelegate
+                                    let window = UIWindow(windowScene: scene)
+                                    window.rootViewController = UIHostingController(rootView: SitUp1())
+                                    windowSceneDelegate?.window = window
+                                    window.makeKeyAndVisible()
+        }, label: {
+            Text("Button")
+        })
+        
     }
 }
 

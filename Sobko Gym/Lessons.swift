@@ -13,6 +13,7 @@ struct Lessons: View {
     var torso: [String] = []
     var body: some View {
         ZStack{
+            
             VStack(spacing:0){
             Rectangle()
                 .foregroundColor(.clear)
@@ -88,7 +89,7 @@ struct Lessons: View {
                     
                 }.frame(width: UIScreen.main.bounds.width, height: 635, alignment: .center)
                     .padding(.top,3)
-                    .padding(.bottom,20)
+                .padding(.bottom,20)
             
                 HStack(spacing:69){
                     Button(action: {

@@ -9,6 +9,20 @@ import SwiftUI
 
 struct SitUp1: View {
     @State var btnColor1 = true
+    @State var error = false
+    @State var mess = ""
+
+    var colums = Array(0...60).map{"\($0)"}
+    let layon = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    @State var fl = CGFloat(0)
+    @State var contDay = UserDefaults.standard.integer(forKey: "Keey")
     var body: some View {
         ZStack{
             
@@ -31,47 +45,62 @@ struct SitUp1: View {
                 .padding(50)
                 .padding(.top,10)
                 
-            VStack(spacing:15){
-                ForEach(0..<10){ st in
-            HStack(spacing:15){
-                ForEach(0..<6){ strok in
-                    ZStack{
-                        Button(action: {
-                            btnColor1.toggle()
-                        }, label: {
-                           
+                LazyVGrid(columns: layon, spacing: 15, content: {
+                    ForEach(1...60, id:\.self){ item in
+                        ZStack{
                             Circle()
                                 
-                                .strokeBorder(Color("nobu"), lineWidth: 1)
+                                .strokeBorder(Color("bu"), lineWidth: 1)
+                               
                                 .frame(width: 42, height: 42, alignment: .center)
                                 .background(Circle())
-                                .foregroundColor(Color(btnColor1 ? ("wi") : ("bu")))
+                                .foregroundColor(item-1 < contDay ? Color("bu") : Color.white)
                             
-                            
-                        })
-                     
-                        
-                        
+                            Text("\(item)").font(.custom("ND Astroneer.ttf", size: 20))
+                                .foregroundColor(item-1 < contDay ? Color.white : Color("bu")).onTapGesture(perform: {
+                                    if item-1 == contDay{
+                                        contDay += 1
+                                        let scene = UIApplication.shared.connectedScenes.first as! UIWindowScene
+                                                                let windowSceneDelegate = scene.delegate as? SceneDelegate
+                                                                let window = UIWindow(windowScene: scene)
+                                        window.rootViewController = UIHostingController(rootView: SitUp2(contDay: $contDay))
+                                                                windowSceneDelegate?.window = window
+                                                                window.makeKeyAndVisible()
+                                        
+                                    } else if item-1 < contDay{
+                                        mess = "Training session completed"
+                                        error.toggle()
+                                        
+                                    } else {
+                                        mess = "Training is not available"
+                                        error.toggle()
+                                    }
+                                }).alert(isPresented: $error, content: {
+                                    Alert(title: Text("Error"), message: Text("\(mess)"), dismissButton: .default(Text("OK")))
+                                })
+                        }
                     }
-                }
-                }
-                }
-            }
+                }).frame(width: UIScreen.main.bounds.width/1.1)
                 ZStack{
                 ZStack(alignment:.leading){
-                    Rectangle()
+                    RoundedRectangle(cornerRadius: 25.0)
                         .strokeBorder(Color("nobu"), lineWidth: 1)
-                        .frame(width: 326, height: 45, alignment: .center)
-                        .cornerRadius(23)
+//                        .clipShape(Circle(), style: FillStyle())
+                        .frame(width: 330, height: 45, alignment: .center)
+                        
+//                        .cornerRadius(23)
                         Rectangle()
                             .foregroundColor(Color("nobu"))
-                            .frame(width: 73, height: 45, alignment: .center)
+                            .frame(width:330/60*CGFloat(contDay) == 0 ? 0 : 330/60*CGFloat(contDay) > 49 ? 330/60*CGFloat(contDay) :  49 , height: 45, alignment: .center)
+                            
                             .cornerRadius(23)
                 }
-                    Text("10%")
+                    Text("\(contDay*100/60)%")
                         .font(.custom("ND Astroneer.ttf", size: 20))
-                        .foregroundColor(Color("nobu"))
+                        .foregroundColor(contDay*100/60 > 48 ? Color.white : Color("bu"))
+                   
                 }.padding()
+               
             VStack{
                
                 
@@ -98,7 +127,7 @@ struct SitUp1: View {
                 .padding(.top)
             }
         }
-    }.edgesIgnoringSafeArea(.all)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 

@@ -87,8 +87,7 @@ class Sobko_GymUITests: XCTestCase {
         app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         let ivanovMailComTextField = app.textFields["Ivanov@mail.com"]
         ivanovMailComTextField.tap()
-     
-        ivanovMailComTextField.typeText("678@")
+     ivanovMailComTextField.typeText("678@")
         app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         let element = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
         let secureTextField = element.children(matching: .secureTextField).matching(identifier: "●●●●●●").element(boundBy: 0)
