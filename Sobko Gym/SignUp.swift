@@ -84,6 +84,7 @@ struct SignUp: View {
                             .foregroundColor(Color("gray1"))
                             .frame(width: 260, height: 50, alignment: .center)
                             .padding(.leading,5)
+//                            .textContentType(.emailAddress)
                     }
                 }
                 ZStack{
@@ -104,7 +105,7 @@ struct SignUp: View {
                             .foregroundColor(.gray)
                             .opacity(10)
                             
-                        TextField("●●●●●●", text: $pass)
+                        SecureField("●●●●●●", text: $pass)
                             .font(.custom("ND Astroneer.ttf", size: 15))
                             .foregroundColor(Color("gray2"))
                             .frame(width: 260, height: 50, alignment: .center)
@@ -129,11 +130,13 @@ struct SignUp: View {
                             .foregroundColor(.gray)
                             .opacity(10)
                             
-                        TextField("●●●●●●", text: $rePass)
+                        SecureField("●●●●●●", text: $rePass)
                             .font(.custom("ND Astroneer.ttf", size: 15))
                             .foregroundColor(Color("gray2"))
                             .frame(width: 260, height: 50, alignment: .center)
                             .padding(.leading,5)
+                            
+                        
                     }
                 }
                 }
@@ -143,7 +146,9 @@ struct SignUp: View {
                     if nam != "", email != "", pass != "", rePass != ""{
                         if email.contains("@"){
                             if pass == rePass {
-                                viewModel.SignUp(nam: "\(nam)", email: "\(email)", pass: "\(pass)", wig: "\(weight)", hi: "\(heignt)")
+                                let weightS = UserDefaults.standard.string(forKey: "weight")
+                                let heightS = UserDefaults.standard.string(forKey: "height")
+                                viewModel.SignUp(nam: "\(nam)", email: "\(email)", pass: "\(pass)", wig: "\(weightS!)", hi: "\(heightS!)")
                                 Swift22 = 7
                             } else{
                                 mess = "Passwords don't match"
@@ -161,15 +166,20 @@ struct SignUp: View {
                     }
                     
                 }, label: {
+                    ZStack{
+                        Rectangle()
+                            .frame(width: 312, height: 50, alignment: .center).cornerRadius(100)
+                            .foregroundColor(.white)
                     Text("Sign Up")
                         .font(.custom("ND Astroneer.ttf", size: 24))
-                        .frame(width: 312, height: 50, alignment: .center).cornerRadius(100)
-                        .background(Color.white)
+                    
                         .foregroundColor(Color("bu"))
-                        .padding(.top, 50)
+                        
+                    }
+                        
                 }).alert(isPresented: $alertError, content: {
                     Alert(title: Text("Error"), message: Text("\(mess)"), dismissButton: .default(Text("OK")))
-                })
+                }).padding(.top, 50)
                 Button(action: {
                     Swift22 = 7
                 }, label: {
@@ -186,7 +196,9 @@ struct SignUp: View {
                 
                     
             }
-            }
+            }.onTapGesture(perform: {
+                UIApplication.shared.windows.forEach { $0.endEditing(true )}
+            })
     }
 }
 

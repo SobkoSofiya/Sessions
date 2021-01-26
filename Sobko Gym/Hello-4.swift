@@ -14,6 +14,7 @@ struct Hello_4: View {
     @State var btnColor2:Bool = true
     @State var btnColor3:Bool = true
     @State var viewModel = ViewModel()
+    @Binding var Swift23:Int
     var body: some View {
         ZStack{
             
@@ -91,12 +92,23 @@ struct Hello_4: View {
                         })
                    
                         Button(action: {
+                            if Swift23 != 5{
                             if btnColor == false || btnColor1 == false || btnColor2 == false{
                                 btnColor3.toggle()
                                 Swift22 = 6
                             
+                            } else{
+                                
                             }
-                            
+                            } else{
+                                if btnColor == false || btnColor1 == false || btnColor2 == false{
+                                    btnColor3.toggle()
+                                    Swift23 = 6
+                                
+                                } else{
+                                    
+                                }
+                            }
                         }, label: {
                             ZStack{
                                 Rectangle()

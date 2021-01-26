@@ -13,6 +13,7 @@ struct Hello_2_3: View {
     @State var btnColor1:Bool = true
     @State var btnColor2:Bool = true
     @State var btnColor3:Bool = true
+    @Binding var Swift23:Int
     var body: some View {
         ZStack{
             
@@ -37,8 +38,13 @@ struct Hello_2_3: View {
                         VStack(spacing:10){
                             HStack(spacing:0){
                                 Button(action: {
+                                    if Swift23 != 4{
                                     btnColor.toggle()
                                     Swift22 = 5
+                                    } else{
+                                        btnColor.toggle()
+                                        Swift22 = 5
+                                    }
                                 }, label: {
                                     ZStack{
                                         Rectangle()
@@ -61,8 +67,13 @@ struct Hello_2_3: View {
                             }.padding(.trailing,50)
                             HStack(spacing:0){
                                 Button(action: {
+                                    if Swift23 != 4{
                                     btnColor1.toggle()
                                     Swift22 = 5
+                                    } else{
+                                        btnColor1.toggle()
+                                        Swift22 = 5
+                                    }
                                 }, label: {
                                     ZStack{
                                         Rectangle()
@@ -86,8 +97,13 @@ struct Hello_2_3: View {
                             }.padding(.trailing,30)
                             HStack(spacing:0){
                                 Button(action: {
+                                    if Swift23 != 4{
                                     btnColor2.toggle()
                                     Swift22 = 5
+                                    } else{
+                                        btnColor2.toggle()
+                                        Swift22 = 5
+                                    }
                                 }, label: {
                                     ZStack{
                                         Rectangle()
@@ -117,8 +133,13 @@ struct Hello_2_3: View {
                             }.padding(.trailing,15)
                             HStack(spacing:0){
                                 Button(action: {
-                                    btnColor3.toggle()
+                                    if Swift23 != 4{
+                                    btnColor2.toggle()
                                     Swift22 = 5
+                                    } else{
+                                        btnColor2.toggle()
+                                        Swift22 = 5
+                                    }
                                 }, label: {
                                     ZStack{
                                         Rectangle()

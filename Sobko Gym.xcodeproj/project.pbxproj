@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276BC3A183BB6B94378CD848 /* Pods_Sobko_Gym_Sobko_GymUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DA3DCE567681609B9D91C6 /* Pods_Sobko_Gym_Sobko_GymUITests.framework */; };
+		C381866525B6ADCE0072D355 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381866425B6ADCE0072D355 /* Profile.swift */; };
+		C381866625B6ADCE0072D355 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381866425B6ADCE0072D355 /* Profile.swift */; };
+		C381866725B6ADCE0072D355 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381866425B6ADCE0072D355 /* Profile.swift */; };
+		C381868425B6C1440072D355 /* ModelLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381868325B6C1440072D355 /* ModelLessons.swift */; };
+		C381868525B6C1440072D355 /* ModelLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381868325B6C1440072D355 /* ModelLessons.swift */; };
+		C381868625B6C1440072D355 /* ModelLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381868325B6C1440072D355 /* ModelLessons.swift */; };
+		C381869525B6DCC40072D355 /* tren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381869425B6DCC40072D355 /* tren.swift */; };
+		C381869625B6DCC40072D355 /* tren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381869425B6DCC40072D355 /* tren.swift */; };
+		C381869725B6DCC40072D355 /* tren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381869425B6DCC40072D355 /* tren.swift */; };
+		C381869D25B6F4510072D355 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C381869C25B6F4510072D355 /* KeychainSwift */; };
 		C38E238C25B56D6800A2506B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E238B25B56D6800A2506B /* AppDelegate.swift */; };
 		C38E238E25B56D6800A2506B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E238D25B56D6800A2506B /* SceneDelegate.swift */; };
 		C38E239025B56D6800A2506B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E238F25B56D6800A2506B /* ContentView.swift */; };
@@ -56,6 +67,44 @@
 		C38E243625B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
 		C38E243725B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
 		C38E243825B5A8AC00A2506B /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243525B5A8AC00A2506B /* Back.swift */; };
+		C38E244025B5B48F00A2506B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243F25B5B48F00A2506B /* Main.swift */; };
+		C38E244125B5B48F00A2506B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243F25B5B48F00A2506B /* Main.swift */; };
+		C38E244225B5B48F00A2506B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E243F25B5B48F00A2506B /* Main.swift */; };
+		C38E244725B5C08500A2506B /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244625B5C08500A2506B /* Lessons.swift */; };
+		C38E244825B5C08500A2506B /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244625B5C08500A2506B /* Lessons.swift */; };
+		C38E244925B5C08500A2506B /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244625B5C08500A2506B /* Lessons.swift */; };
+		C38E244E25B5C71100A2506B /* LessonSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244D25B5C71100A2506B /* LessonSpine.swift */; };
+		C38E244F25B5C71100A2506B /* LessonSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244D25B5C71100A2506B /* LessonSpine.swift */; };
+		C38E245025B5C71100A2506B /* LessonSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E244D25B5C71100A2506B /* LessonSpine.swift */; };
+		C38E245525B5C76F00A2506B /* LessonTorso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245425B5C76F00A2506B /* LessonTorso.swift */; };
+		C38E245625B5C76F00A2506B /* LessonTorso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245425B5C76F00A2506B /* LessonTorso.swift */; };
+		C38E245725B5C76F00A2506B /* LessonTorso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245425B5C76F00A2506B /* LessonTorso.swift */; };
+		C38E245C25B5C7BC00A2506B /* LessonLegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245B25B5C7BC00A2506B /* LessonLegs.swift */; };
+		C38E245D25B5C7BC00A2506B /* LessonLegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245B25B5C7BC00A2506B /* LessonLegs.swift */; };
+		C38E245E25B5C7BC00A2506B /* LessonLegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E245B25B5C7BC00A2506B /* LessonLegs.swift */; };
+		C3E8E2A625B8048600E0963E /* AlertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2A525B8048600E0963E /* AlertTextFeild.swift */; };
+		C3E8E2A725B8048600E0963E /* AlertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2A525B8048600E0963E /* AlertTextFeild.swift */; };
+		C3E8E2A825B8048600E0963E /* AlertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2A525B8048600E0963E /* AlertTextFeild.swift */; };
+		C3E8E2AD25B821A700E0963E /* SitUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2AC25B821A700E0963E /* SitUp1.swift */; };
+		C3E8E2AE25B821A700E0963E /* SitUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2AC25B821A700E0963E /* SitUp1.swift */; };
+		C3E8E2AF25B821A700E0963E /* SitUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2AC25B821A700E0963E /* SitUp1.swift */; };
+		C3E8E2B425B821B500E0963E /* SitUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2B325B821B500E0963E /* SitUp2.swift */; };
+		C3E8E2B525B821B500E0963E /* SitUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2B325B821B500E0963E /* SitUp2.swift */; };
+		C3E8E2B625B821B500E0963E /* SitUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2B325B821B500E0963E /* SitUp2.swift */; };
+		C3E8E2BE25B821C900E0963E /* PushUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2BD25B821C900E0963E /* PushUp1.swift */; };
+		C3E8E2BF25B821C900E0963E /* PushUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2BD25B821C900E0963E /* PushUp1.swift */; };
+		C3E8E2C025B821C900E0963E /* PushUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2BD25B821C900E0963E /* PushUp1.swift */; };
+		C3E8E2C825B821D800E0963E /* PushUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2C725B821D800E0963E /* PushUp2.swift */; };
+		C3E8E2C925B821D800E0963E /* PushUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2C725B821D800E0963E /* PushUp2.swift */; };
+		C3E8E2CA25B821D800E0963E /* PushUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2C725B821D800E0963E /* PushUp2.swift */; };
+		C3E8E2D925B85B2900E0963E /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2D825B85B2900E0963E /* Web.swift */; };
+		C3E8E2DA25B85B2900E0963E /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2D825B85B2900E0963E /* Web.swift */; };
+		C3E8E2DB25B85B2900E0963E /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2D825B85B2900E0963E /* Web.swift */; };
+		C3E8E2E025B85D7C00E0963E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2DF25B85D7C00E0963E /* WebView.swift */; };
+		C3E8E2E125B85D7C00E0963E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2DF25B85D7C00E0963E /* WebView.swift */; };
+		C3E8E2E225B85D7C00E0963E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8E2DF25B85D7C00E0963E /* WebView.swift */; };
+		E999DC455E411E8801E041BC /* Pods_Sobko_Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5E7759109ACDD5F70A1282 /* Pods_Sobko_Gym.framework */; };
+		EBAAD311D53C2C9E70737DCF /* Pods_Sobko_GymTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954D0F5E856A41D08B6E9D39 /* Pods_Sobko_GymTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +125,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20BE8921530D684D053EB4D0 /* Pods-Sobko Gym-Sobko GymUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko Gym-Sobko GymUITests.release.xcconfig"; path = "Target Support Files/Pods-Sobko Gym-Sobko GymUITests/Pods-Sobko Gym-Sobko GymUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A70D438210B7BD63AAD9E96 /* Pods-Sobko Gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko Gym.release.xcconfig"; path = "Target Support Files/Pods-Sobko Gym/Pods-Sobko Gym.release.xcconfig"; sourceTree = "<group>"; };
+		2B5E7759109ACDD5F70A1282 /* Pods_Sobko_Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sobko_Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DA3DCE567681609B9D91C6 /* Pods_Sobko_Gym_Sobko_GymUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sobko_Gym_Sobko_GymUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954D0F5E856A41D08B6E9D39 /* Pods_Sobko_GymTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sobko_GymTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBF5D916F9109A48CB4ADFF /* Pods-Sobko GymTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko GymTests.debug.xcconfig"; path = "Target Support Files/Pods-Sobko GymTests/Pods-Sobko GymTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BD8A35CCAC8F68100F56BC /* Pods-Sobko GymTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko GymTests.release.xcconfig"; path = "Target Support Files/Pods-Sobko GymTests/Pods-Sobko GymTests.release.xcconfig"; sourceTree = "<group>"; };
+		C381866425B6ADCE0072D355 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C381868325B6C1440072D355 /* ModelLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLessons.swift; sourceTree = "<group>"; };
+		C381869425B6DCC40072D355 /* tren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tren.swift; sourceTree = "<group>"; };
 		C38E238825B56D6800A2506B /* Sobko Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sobko Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38E238B25B56D6800A2506B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38E238D25B56D6800A2506B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +162,20 @@
 		C38E242425B58A7900A2506B /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
 		C38E242E25B5A8A300A2506B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		C38E243525B5A8AC00A2506B /* Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back.swift; sourceTree = "<group>"; };
+		C38E243F25B5B48F00A2506B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		C38E244625B5C08500A2506B /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
+		C38E244D25B5C71100A2506B /* LessonSpine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSpine.swift; sourceTree = "<group>"; };
+		C38E245425B5C76F00A2506B /* LessonTorso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTorso.swift; sourceTree = "<group>"; };
+		C38E245B25B5C7BC00A2506B /* LessonLegs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLegs.swift; sourceTree = "<group>"; };
+		C3E8E2A525B8048600E0963E /* AlertTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextFeild.swift; sourceTree = "<group>"; };
+		C3E8E2AC25B821A700E0963E /* SitUp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUp1.swift; sourceTree = "<group>"; };
+		C3E8E2B325B821B500E0963E /* SitUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUp2.swift; sourceTree = "<group>"; };
+		C3E8E2BD25B821C900E0963E /* PushUp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp1.swift; sourceTree = "<group>"; };
+		C3E8E2C725B821D800E0963E /* PushUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp2.swift; sourceTree = "<group>"; };
+		C3E8E2D825B85B2900E0963E /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		C3E8E2DF25B85D7C00E0963E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EF01CB282C634EBA1128711C /* Pods-Sobko Gym-Sobko GymUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko Gym-Sobko GymUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sobko Gym-Sobko GymUITests/Pods-Sobko Gym-Sobko GymUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC6E4A5018E2FDBA4F241A9 /* Pods-Sobko Gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sobko Gym.debug.xcconfig"; path = "Target Support Files/Pods-Sobko Gym/Pods-Sobko Gym.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +185,8 @@
 			files = (
 				C38E241025B586F800A2506B /* SwiftyJSON in Frameworks */,
 				C38E241625B5878D00A2506B /* Alamofire in Frameworks */,
+				C381869D25B6F4510072D355 /* KeychainSwift in Frameworks */,
+				E999DC455E411E8801E041BC /* Pods_Sobko_Gym.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAAD311D53C2C9E70737DCF /* Pods_Sobko_GymTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +202,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276BC3A183BB6B94378CD848 /* Pods_Sobko_Gym_Sobko_GymUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D6AA3B4A4639ADD54D8818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEC6E4A5018E2FDBA4F241A9 /* Pods-Sobko Gym.debug.xcconfig */,
+				2A70D438210B7BD63AAD9E96 /* Pods-Sobko Gym.release.xcconfig */,
+				EF01CB282C634EBA1128711C /* Pods-Sobko Gym-Sobko GymUITests.debug.xcconfig */,
+				20BE8921530D684D053EB4D0 /* Pods-Sobko Gym-Sobko GymUITests.release.xcconfig */,
+				AFBF5D916F9109A48CB4ADFF /* Pods-Sobko GymTests.debug.xcconfig */,
+				B8BD8A35CCAC8F68100F56BC /* Pods-Sobko GymTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFEC8A1CCDE84D99604D3CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E7759109ACDD5F70A1282 /* Pods_Sobko_Gym.framework */,
+				93DA3DCE567681609B9D91C6 /* Pods_Sobko_Gym_Sobko_GymUITests.framework */,
+				954D0F5E856A41D08B6E9D39 /* Pods_Sobko_GymTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C38E237F25B56D6800A2506B = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +239,8 @@
 				C38E23A125B56D6A00A2506B /* Sobko GymTests */,
 				C38E23AC25B56D6A00A2506B /* Sobko GymUITests */,
 				C38E238925B56D6800A2506B /* Products */,
+				80D6AA3B4A4639ADD54D8818 /* Pods */,
+				BFEC8A1CCDE84D99604D3CE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +273,21 @@
 				C38E23EB25B5814E00A2506B /* SignIn.swift */,
 				C38E242E25B5A8A300A2506B /* SignUp.swift */,
 				C38E243525B5A8AC00A2506B /* Back.swift */,
+				C38E243F25B5B48F00A2506B /* Main.swift */,
+				C381868325B6C1440072D355 /* ModelLessons.swift */,
+				C38E244625B5C08500A2506B /* Lessons.swift */,
+				C381869425B6DCC40072D355 /* tren.swift */,
+				C3E8E2A525B8048600E0963E /* AlertTextFeild.swift */,
+				C38E244D25B5C71100A2506B /* LessonSpine.swift */,
+				C38E245425B5C76F00A2506B /* LessonTorso.swift */,
+				C38E245B25B5C7BC00A2506B /* LessonLegs.swift */,
+				C381866425B6ADCE0072D355 /* Profile.swift */,
+				C3E8E2DF25B85D7C00E0963E /* WebView.swift */,
+				C3E8E2D825B85B2900E0963E /* Web.swift */,
+				C3E8E2AC25B821A700E0963E /* SitUp1.swift */,
+				C3E8E2B325B821B500E0963E /* SitUp2.swift */,
+				C3E8E2BD25B821C900E0963E /* PushUp1.swift */,
+				C3E8E2C725B821D800E0963E /* PushUp2.swift */,
 				C38E239125B56D6A00A2506B /* Assets.xcassets */,
 				C38E239625B56D6A00A2506B /* LaunchScreen.storyboard */,
 				C38E239925B56D6A00A2506B /* Info.plist */,
@@ -212,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C38E23B225B56D6A00A2506B /* Build configuration list for PBXNativeTarget "Sobko Gym" */;
 			buildPhases = (
+				5F5ED87614E952967AF18C68 /* [CP] Check Pods Manifest.lock */,
 				C38E238425B56D6800A2506B /* Sources */,
 				C38E238525B56D6800A2506B /* Frameworks */,
 				C38E238625B56D6800A2506B /* Resources */,
+				59786F0430AED5EBE0112E1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +343,7 @@
 			packageProductDependencies = (
 				C38E240F25B586F800A2506B /* SwiftyJSON */,
 				C38E241525B5878D00A2506B /* Alamofire */,
+				C381869C25B6F4510072D355 /* KeychainSwift */,
 			);
 			productName = "Sobko Gym";
 			productReference = C38E238825B56D6800A2506B /* Sobko Gym.app */;
@@ -233,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C38E23B525B56D6A00A2506B /* Build configuration list for PBXNativeTarget "Sobko GymTests" */;
 			buildPhases = (
+				718DD6846E4BB566304D965A /* [CP] Check Pods Manifest.lock */,
 				C38E239A25B56D6A00A2506B /* Sources */,
 				C38E239B25B56D6A00A2506B /* Frameworks */,
 				C38E239C25B56D6A00A2506B /* Resources */,
@@ -251,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C38E23B825B56D6A00A2506B /* Build configuration list for PBXNativeTarget "Sobko GymUITests" */;
 			buildPhases = (
+				9956D26B7AC1B78726908569 /* [CP] Check Pods Manifest.lock */,
 				C38E23A525B56D6A00A2506B /* Sources */,
 				C38E23A625B56D6A00A2506B /* Frameworks */,
 				C38E23A725B56D6A00A2506B /* Resources */,
+				C29D4F6D4FFB853128B63806 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,6 +422,7 @@
 			packageReferences = (
 				C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				C38E241425B5878D00A2506B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C381869B25B6F4500072D355 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = C38E238925B56D6800A2506B /* Products */;
 			projectDirPath = "";
@@ -341,25 +465,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59786F0430AED5EBE0112E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym/Pods-Sobko Gym-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym/Pods-Sobko Gym-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym/Pods-Sobko Gym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5ED87614E952967AF18C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sobko Gym-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718DD6846E4BB566304D965A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sobko GymTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9956D26B7AC1B78726908569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sobko Gym-Sobko GymUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29D4F6D4FFB853128B63806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym-Sobko GymUITests/Pods-Sobko Gym-Sobko GymUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym-Sobko GymUITests/Pods-Sobko Gym-Sobko GymUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sobko Gym-Sobko GymUITests/Pods-Sobko Gym-Sobko GymUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C38E238425B56D6800A2506B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C38E238C25B56D6800A2506B /* AppDelegate.swift in Sources */,
+				C3E8E2BE25B821C900E0963E /* PushUp1.swift in Sources */,
+				C381868425B6C1440072D355 /* ModelLessons.swift in Sources */,
+				C3E8E2C825B821D800E0963E /* PushUp2.swift in Sources */,
 				C38E241B25B5893400A2506B /* Hello-2-3.swift in Sources */,
 				C38E23EC25B5814E00A2506B /* SignIn.swift in Sources */,
+				C3E8E2B425B821B500E0963E /* SitUp2.swift in Sources */,
+				C38E244E25B5C71100A2506B /* LessonSpine.swift in Sources */,
 				C38E238E25B56D6800A2506B /* SceneDelegate.swift in Sources */,
+				C3E8E2AD25B821A700E0963E /* SitUp1.swift in Sources */,
 				C38E240525B586C900A2506B /* ViewModel.swift in Sources */,
 				C38E23D025B5738600A2506B /* Hellow-2.swift in Sources */,
+				C3E8E2A625B8048600E0963E /* AlertTextFeild.swift in Sources */,
 				C38E242525B58A7900A2506B /* Swift2.swift in Sources */,
 				C38E242F25B5A8A400A2506B /* SignUp.swift in Sources */,
+				C3E8E2D925B85B2900E0963E /* Web.swift in Sources */,
 				C38E23DE25B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C381866525B6ADCE0072D355 /* Profile.swift in Sources */,
 				C38E23FE25B5860200A2506B /* Model.swift in Sources */,
+				C38E244025B5B48F00A2506B /* Main.swift in Sources */,
+				C38E244725B5C08500A2506B /* Lessons.swift in Sources */,
+				C3E8E2E025B85D7C00E0963E /* WebView.swift in Sources */,
+				C38E245525B5C76F00A2506B /* LessonTorso.swift in Sources */,
 				C38E23C925B570E500A2506B /* Hello-1.swift in Sources */,
 				C38E23D725B576DF00A2506B /* Hello-2-2.swift in Sources */,
 				C38E23E525B57FD300A2506B /* Hello-5.swift in Sources */,
 				C38E243625B5A8AC00A2506B /* Back.swift in Sources */,
+				C381869525B6DCC40072D355 /* tren.swift in Sources */,
+				C38E245C25B5C7BC00A2506B /* LessonLegs.swift in Sources */,
 				C38E239025B56D6800A2506B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,15 +614,30 @@
 				C38E243025B5A8A400A2506B /* SignUp.swift in Sources */,
 				C38E241C25B5893400A2506B /* Hello-2-3.swift in Sources */,
 				C38E243725B5A8AC00A2506B /* Back.swift in Sources */,
+				C38E245625B5C76F00A2506B /* LessonTorso.swift in Sources */,
+				C381868525B6C1440072D355 /* ModelLessons.swift in Sources */,
+				C3E8E2A725B8048600E0963E /* AlertTextFeild.swift in Sources */,
+				C3E8E2AE25B821A700E0963E /* SitUp1.swift in Sources */,
 				C38E242625B58A7900A2506B /* Swift2.swift in Sources */,
+				C3E8E2C925B821D800E0963E /* PushUp2.swift in Sources */,
 				C38E240625B586C900A2506B /* ViewModel.swift in Sources */,
+				C38E244825B5C08500A2506B /* Lessons.swift in Sources */,
 				C38E23DF25B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C3E8E2E125B85D7C00E0963E /* WebView.swift in Sources */,
 				C38E23E625B57FD300A2506B /* Hello-5.swift in Sources */,
+				C381869625B6DCC40072D355 /* tren.swift in Sources */,
+				C38E245D25B5C7BC00A2506B /* LessonLegs.swift in Sources */,
 				C38E23CA25B570E500A2506B /* Hello-1.swift in Sources */,
 				C38E23ED25B5814E00A2506B /* SignIn.swift in Sources */,
+				C3E8E2DA25B85B2900E0963E /* Web.swift in Sources */,
+				C3E8E2BF25B821C900E0963E /* PushUp1.swift in Sources */,
 				C38E23D125B5738600A2506B /* Hellow-2.swift in Sources */,
 				C38E23A325B56D6A00A2506B /* Sobko_GymTests.swift in Sources */,
+				C38E244125B5B48F00A2506B /* Main.swift in Sources */,
+				C381866625B6ADCE0072D355 /* Profile.swift in Sources */,
 				C38E23FF25B5860200A2506B /* Model.swift in Sources */,
+				C3E8E2B525B821B500E0963E /* SitUp2.swift in Sources */,
+				C38E244F25B5C71100A2506B /* LessonSpine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,15 +649,30 @@
 				C38E243125B5A8A400A2506B /* SignUp.swift in Sources */,
 				C38E241D25B5893400A2506B /* Hello-2-3.swift in Sources */,
 				C38E243825B5A8AC00A2506B /* Back.swift in Sources */,
+				C38E245725B5C76F00A2506B /* LessonTorso.swift in Sources */,
+				C381868625B6C1440072D355 /* ModelLessons.swift in Sources */,
+				C3E8E2A825B8048600E0963E /* AlertTextFeild.swift in Sources */,
+				C3E8E2AF25B821A700E0963E /* SitUp1.swift in Sources */,
 				C38E242725B58A7900A2506B /* Swift2.swift in Sources */,
+				C3E8E2CA25B821D800E0963E /* PushUp2.swift in Sources */,
 				C38E240725B586C900A2506B /* ViewModel.swift in Sources */,
+				C38E244925B5C08500A2506B /* Lessons.swift in Sources */,
 				C38E23E025B57E5D00A2506B /* Hello-4.swift in Sources */,
+				C3E8E2E225B85D7C00E0963E /* WebView.swift in Sources */,
 				C38E23E725B57FD300A2506B /* Hello-5.swift in Sources */,
+				C381869725B6DCC40072D355 /* tren.swift in Sources */,
+				C38E245E25B5C7BC00A2506B /* LessonLegs.swift in Sources */,
 				C38E23CB25B570E500A2506B /* Hello-1.swift in Sources */,
 				C38E23EE25B5814E00A2506B /* SignIn.swift in Sources */,
+				C3E8E2DB25B85B2900E0963E /* Web.swift in Sources */,
+				C3E8E2C025B821C900E0963E /* PushUp1.swift in Sources */,
 				C38E23D225B5738600A2506B /* Hellow-2.swift in Sources */,
 				C38E23AE25B56D6A00A2506B /* Sobko_GymUITests.swift in Sources */,
+				C38E244225B5B48F00A2506B /* Main.swift in Sources */,
+				C381866725B6ADCE0072D355 /* Profile.swift in Sources */,
 				C38E240025B5860200A2506B /* Model.swift in Sources */,
+				C3E8E2B625B821B500E0963E /* SitUp2.swift in Sources */,
+				C38E245025B5C71100A2506B /* LessonSpine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,13 +821,16 @@
 		};
 		C38E23B325B56D6A00A2506B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC6E4A5018E2FDBA4F241A9 /* Pods-Sobko Gym.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sobko Gym/Preview Content\"";
+				DEVELOPMENT_TEAM = 36AA5W3QR6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sobko Gym/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,19 +838,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Sobko-Gym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C38E23B425B56D6A00A2506B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A70D438210B7BD63AAD9E96 /* Pods-Sobko Gym.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sobko Gym/Preview Content\"";
+				DEVELOPMENT_TEAM = 36AA5W3QR6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sobko Gym/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,12 +861,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Sobko-Gym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C38E23B625B56D6A00A2506B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBF5D916F9109A48CB4ADFF /* Pods-Sobko GymTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +889,7 @@
 		};
 		C38E23B725B56D6A00A2506B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BD8A35CCAC8F68100F56BC /* Pods-Sobko GymTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,6 +911,7 @@
 		};
 		C38E23B925B56D6A00A2506B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF01CB282C634EBA1128711C /* Pods-Sobko Gym-Sobko GymUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,6 +931,7 @@
 		};
 		C38E23BA25B56D6A00A2506B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BE8921530D684D053EB4D0 /* Pods-Sobko Gym-Sobko GymUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -709,6 +991,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C381869B25B6F4500072D355 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 19.0.0;
+			};
+		};
 		C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
@@ -728,6 +1018,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C381869C25B6F4510072D355 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C381869B25B6F4500072D355 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
 		C38E240F25B586F800A2506B /* SwiftyJSON */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C38E240E25B586F800A2506B /* XCRemoteSwiftPackageReference "SwiftyJSON" */;

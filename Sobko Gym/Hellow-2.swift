@@ -12,6 +12,7 @@ struct Hellow_2: View {
     @State var btnColor:Bool = true
     @State var btnColor1:Bool = true
     @State var btnColor2:Bool = true
+    @Binding var Swift23:Int
     var body: some View {
         ZStack{
             
@@ -19,7 +20,7 @@ struct Hellow_2: View {
         .foregroundColor(Color("bu"))
             VStack(spacing: 100){
                 VStack{
-                Text("Step 1/5")
+                Text("Step 2/5")
                     .foregroundColor(.white)
                     .font(.custom("ND Astroneer.ttf", size: 50))
                     .padding(30)
@@ -82,12 +83,19 @@ struct Hellow_2: View {
                 }
                 }
                 Button(action: {
-                  
+                    if Swift23 != 2{
                     btnColor2.toggle()
                     if btnColor == false{
                         Swift22 = 3
                     } else if btnColor1 == false{
                         Swift22 = 4
+                    }} else{
+                        btnColor2.toggle()
+                        if btnColor == false{
+                            Swift23 = 3
+                        } else if btnColor1 == false{
+                            Swift23 = 4
+                        }
                     }
 //                    Swift22 = 3
                 }, label: {

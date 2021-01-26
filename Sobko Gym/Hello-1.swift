@@ -12,6 +12,7 @@ struct Hello_1: View {
     @State var btnColor:Bool = true
     @State var btnColor1:Bool = true
     @State var btnColor2:Bool = true
+    @Binding var Swift23:Int
     var body: some View {
         ZStack{
             
@@ -28,8 +29,13 @@ struct Hello_1: View {
                     .padding(.bottom, 70)
                 VStack(spacing:25){
                     Button(action: {
+                        if Swift23 != 1{
                         btnColor.toggle()
-                        Swift22 = 2
+                            Swift22 = 2}else{
+                                btnColor.toggle()
+                                Swift23 = 1
+                            }
+                            
                     }, label: {
                         ZStack{
                             Rectangle()
@@ -47,8 +53,12 @@ struct Hello_1: View {
                     })
                
                     Button(action: {
-                        btnColor.toggle()
-                        Swift22 = 2
+                        if Swift23 != 1{
+                        btnColor1.toggle()
+                            Swift22 = 2}else{
+                                btnColor1.toggle()
+                                Swift23 = 1
+                            }
                     }, label: {
                         ZStack{
                             Rectangle()
@@ -66,8 +76,14 @@ struct Hello_1: View {
                     })
                 
                     Button(action: {
-                        btnColor.toggle()
-                        Swift22 = 2
+                        if Swift23 != 1{
+                        btnColor2.toggle()
+                            Swift22 = 2}else{
+                                btnColor2.toggle()
+                                Swift23 = 1
+                            }
+                       
+
                     }, label: {
                         ZStack{
                             Rectangle()

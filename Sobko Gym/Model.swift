@@ -9,5 +9,10 @@ import Foundation
 import  SwiftUI
 
 struct Model: Hashable {
-    let nam, pass, wig, hig:String
+    var nam, pass, wig, hig, email:String
+}
+
+
+struct ModelCategory:Hashable {
+    let url, category:String
 }

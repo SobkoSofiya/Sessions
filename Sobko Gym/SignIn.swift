@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct SignIn: View {
+    
     @State var viewModel = ViewModel()
     @Binding var Swift22:Int
-    @Binding var nam:String
+    @State var nam:String  = ""
     @State var pass:String = ""
     @State var error = false
     @State var mess:String = ""
     var body: some View {
+       
         ZStack{
             Rectangle()
                 .foregroundColor(Color("bu"))
@@ -49,7 +51,7 @@ struct SignIn: View {
                             .foregroundColor(.gray)
                             .opacity(10)
                             
-                        TextField("Ivanov", text: $nam)
+                        TextField ("Ivanov", text: $nam)
                             .font(.custom("ND Astroneer.ttf", size: 24))
                             .foregroundColor(Color("gray1"))
                             .frame(width: 260, height: 50, alignment: .center)
@@ -73,7 +75,7 @@ struct SignIn: View {
                             .foregroundColor(.gray)
                             .opacity(10)
                             
-                        TextField("●●●●●●", text: $pass)
+                        SecureField("●●●●●●", text: $pass)
                             .font(.custom("ND Astroneer.ttf", size: 15))
                             .foregroundColor(Color("gray2"))
                             .frame(width: 260, height: 50, alignment: .center)
@@ -85,15 +87,18 @@ struct SignIn: View {
                   
                     Button(action: {
                         viewModel.SignIn(nam: "\(nam)", pass: "\(pass)")
-                        if viewModel.perehod == 1{
-                           Swift22 = 9
-                        } else if viewModel.perehod == 2{
-                            mess = "User is active"
-                            error.toggle()
-                        } else if viewModel.perehod == 3{
-                            mess = "Error username or password"
-                            error.toggle()
-                        }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+                            if viewModel.perehod == 1{
+                               Swift22 = 9
+                            } else if viewModel.perehod == 2{
+                                mess = "User is active"
+                                error.toggle()
+                            } else if viewModel.perehod == 3{
+                                mess = "Error username or password"
+                                error.toggle()
+                            }
+                        })
+                        
                         
                     }, label: {
                         ZStack{
@@ -110,24 +115,22 @@ struct SignIn: View {
                             
                     }).padding(.top, 35).alert(isPresented: $error, content: {
                         Alert(title: Text("Error"), message: Text("\(mess)"), dismissButton: .default(Text("Ok"), action: {
-                            if  mess == "User is active"{
-                                Swift22 = 9
-                            } else if mess == "Error username or password"{
-                                Swift22 = 7
-                            }
-                            
+                            error.toggle()
                         }))
+                        
                     })
                
                 }
                 Button(action: {
                     Swift22 = 8
                 }, label: {
+                    
                     Text("Sign Up")
                         .underline()
                         .font(.custom("ND Astroneer.ttf", size: 24))
                         .frame(width: 312, height: 50, alignment: .center).cornerRadius(100)
                         .foregroundColor(.white)
+                    
                 })
                    
                        
@@ -150,7 +153,11 @@ struct SignIn: View {
                 
                     
             }
-            }
+            
+        }.onTapGesture(perform: {
+            UIApplication.shared.windows.forEach { $0.endEditing(true )}
+        })
+        
     }
 }
 
@@ -159,3 +166,4 @@ struct SignIn: View {
 //        SignIn()
 //    }
 //}
+

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.1)
+  - KeychainSwift (19.0.0)
+  - SwiftyJSON (5.0.0)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - KeychainSwift
+  - SwiftyJSON
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KeychainSwift
+    - SwiftyJSON
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: 389f01ce0cd1b36bb7f184bc49e89af9d1f37ba0
+
+COCOAPODS: 1.8.4
